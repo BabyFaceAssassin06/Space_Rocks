@@ -10,7 +10,10 @@ switch(room){
 			room_width/2, 100, "SPACE ROCKS",
 			3, 3 , 0, c,c,c,c, 1
 		);
-
+		draw_text(
+			room_width/2, 200,
+			@"Score 1,000 Points to win!
+			
 		break;
 		 
 	case Rm_Win:
