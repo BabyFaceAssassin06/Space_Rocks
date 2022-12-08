@@ -1,4 +1,10 @@
 if(room == Rm_game){
+	
+	if(audio_play_sound(Msc_song, 2, true)){
+		audio_stop_sound(Msc_song);
+	}
+	audio_play_sound(Msc_song, 2, true);
+	
 	repeat(6){
 		var  xx = choose(
 			irandom_range(0, room_width*0.3),
